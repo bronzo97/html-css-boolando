@@ -6,9 +6,39 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
 /* ----- HEADER ----- */
 
+header {
+    background-color: #EF6837;
+}
 
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link li {
+    color: #fff;
+    list-style: none;
+}
+
+.nav-logo,
+.nav-link li {
+    padding: 5px;
+}
+
+.nav-logo {
+    max-width: 200px;
+}
 
 /* ----- MAIN ----- */
 
